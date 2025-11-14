@@ -1,0 +1,50 @@
+# Updated requirements.txt for inter-areal predictability project
+# Based on actual imports found in the codebase
+
+# Core scientific computing
+numpy>=1.20.0
+scipy>=1.7.0
+pandas>=1.3.0
+
+# Machine learning
+scikit-learn>=1.0.0
+statsmodels>=0.13.0
+
+# Data visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+matplotlib-scalebar>=0.8.0
+
+# Data processing and I/O
+h5py>=3.1.0
+neo>=0.10.0
+quantities>=0.13.0
+glob2  # for enhanced globbing functionality
+
+# Parallel processing and progress bars
+joblib>=1.1.0
+tqdm>=4.62.0
+
+# Jupyter ecosystem (for notebooks)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=6.4.0
+
+# Additional utilities
+pickle5  # enhanced pickle support
+copy  # built-in module for copying objects
+time  # built-in module
+json  # built-in module
+os  # built-in module
+sys  # built-in module
+random  # built-in module
+itertools  # built-in module
+
+# Statistical analysis enhancements
+pingouin>=0.5.0  # for additional statistical functions (optional)
+
+# Image/array processing
+opencv-python>=4.5.0  # if computer vision functionality needed
+
+# Development and debugging (optional)
+ipdb>=0.13.0  # interactive debugger
