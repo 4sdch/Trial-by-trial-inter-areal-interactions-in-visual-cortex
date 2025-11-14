@@ -271,9 +271,6 @@ When adding new analyses:
 3. Include corresponding Jupyter notebooks for visualization
 4. Update documentation and tests
 
-## License
-
-This project is part of ongoing neuroscience research. Please contact the authors for usage permissions and collaboration opportunities.
 
 ## Citation
 
@@ -304,12 +301,10 @@ For questions about the code or collaboration opportunities, please contact:
 ## Troubleshooting
 
 ### Common Issues
-
-1. **Import errors**: Install missing dependencies as needed (requirements.txt may be outdated)
-2. **Path issues**: Ensure `set_home_directory.py` correctly finds the project root
-3. **Data access**: Download datasets from the original sources (see Data Requirements section)  
-4. **Memory issues**: Use `n_jobs=1` for debugging or reduce data size
-5. **Convergence**: Increase `max_iter` for GLM models if needed
+1. **Path issues**: Ensure `set_home_directory.py` correctly finds the project root
+2. **Data access**: Download datasets from the original sources (see Data Requirements section)  
+3. **Memory issues**: Use `n_jobs=1` for debugging or reduce data size
+4. **Convergence**: Increase `max_iter` for GLM models if needed
 
 ### Performance Tips
 
