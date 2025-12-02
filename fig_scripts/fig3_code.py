@@ -135,9 +135,9 @@ for monkey_name in monkey_names:
 	get_directionality_maxcorrvals_monkey(monkey_stats, dataset_types=spont_dataset_type_dict[monkey_name], monkey=monkey_name)
 	get_max_corr_vals_monkey_all_dates(monkey_stats, monkey=monkey_name, dataset_types=spont_dataset_type_dict[monkey_name])
 	get_variance_within_trial_across_timepoints(monkey_stats, specific_dataset_types = resp_dataset_type_dict[monkey_name], 
-                                             monkey=monkey_name)
+                                            monkey=monkey_name)
 	get_variance_within_timepoints_across_trials(monkey_stats, specific_dataset_types = resp_dataset_type_dict[monkey_name], 
-                                              monkey=monkey_name)
+                                            monkey=monkey_name)
 	if monkey_name in ['L','A']:
 		get_RF_variance_across_stimuli(monkey_stats, specific_dataset_types = ['RF_large','RF_thin'], monkey=monkey_name)
 	get_directionality_evars_monkey(monkey_stats, control_shuffle=False, dataset_types=resp_dataset_type_dict[monkey_name], monkey=monkey_name)

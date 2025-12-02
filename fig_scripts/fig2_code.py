@@ -5,14 +5,10 @@ if project_root is None:
     raise RuntimeError(f"Project root not found: ensure a folder named '{project_root}' exists in one of the sys.path entries.")
 print("Project root found:", project_root)
 
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-import seaborn as sns
+
 import pickle
-import scipy.stats as stats
 import os
-import random
+
 results_dir = os.path.join(project_root,'results/fig_2/')
 
 previous_results_dir = os.path.join(project_root,'results/fig_2/')
